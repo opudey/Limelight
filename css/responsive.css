@@ -1,0 +1,78 @@
+/* Medium Layout: 1280px. */
+@media only screen and (min-width: 992px) and (max-width: 1200px) { 
+
+.slicknav_menu {display:none;}
+.container {width:960px}
+
+
+}
+/* Tablet Layout: 768px. */
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+
+.slicknav_menu {display:none;}
+.container {width:750px}
+.mainmenu ul#nav li a {padding: 10px 0 10px 25px;}
+.l-news-text ul li a {margin-right: 40px;}
+.l-news-text ul li::after {left: -23px;}
+.fress-image {height: 168px;}
+.hover-text {bottom: -85px;padding: 10px 10px;}
+.date {width: 100%;margin-bottom:10px;}
+.f_right {width: 100%;}
+
+}
+
+
+/* Mobile Layout: 320px. */
+@media only screen and (max-width: 767px) {
+
+.slicknav_menu {display:block;}
+.container {width:300px}
+.header-section {margin-bottom: 30px;margin-top: 30px;}
+.logo {margin-right: 0;text-align: center;width: 100%;}
+.mainmenu {display: none;width: 100%;}
+.banner-text {margin: 0 0 30px;width: 100%;}
+.banner-image {margin-left: 0;width: 100%;}
+.sign_up_form input[type="email"] {width: 180px;}
+.statement-quote {padding: 0 40px;position: relative;}
+.statement-quote::before {font-size: 14px;height: 30px;line-height: 30px;width: 30px;}
+.statement-quote::after {font-size: 14px;height: 30px;line-height: 30px;width: 30px;}
+.news-thumb {margin-bottom: 15px;margin-right: 0;width: 100%;}
+.l-news-text {width:100%;}
+.l-news-text ul li{border-left:2px solid #86c840;}
+.l-news-text ul li:first-child {border-left:none;}
+.l-news-text ul li a {margin: 0 5px;}
+.l-news-text ul li::after {background:transparent;}
+.our-shop {width: 100%;margin-right: 0;margin-bottom:25px;}
+.latest-twittes {margin-left: 0;width: 100%;}
+.footer-bottom {margin-left: 0;}
+.footer-bottom-section {padding: 35px 0 15px;}
+.fb-widget {margin-left: 0;width: 100%;margin-bottom: 20px;}
+.footer-bottom div:nth-child(2) {text-align: left;}
+.fb-widget a i {text-align: center;}
+.banner-image > img {width: 275px;}
+.fresh-freebies {margin-left: 0;}
+.single-item {margin-left: 0;width: 100%;}
+.fress-image {height: 215px;}
+.statement-quote {padding: 0 20px;position: relative;}
+.statement-quote > h2 {font-size: 17px;}
+.shop-details .More_Freebie_btn > a {font-size: 12px;}
+.sign_up_form input {box-sizing: border-box;width: 100%;}
+.sign_up_form input[type="email"] {width:100%;margin-bottom: 15px;}
+}
+
+/* Wide Mobile Layout: 480px. */
+@media only screen and (min-width: 480px) and (max-width: 767px) { 
+
+.container {width:450px}
+.fresh-freebies {margin-left: -20px;}
+.single-item {width: calc(50% - 20px);margin-left:20px}
+.fress-image {height: 145px;}
+.hover-text {bottom: -85px;padding: 10px 10px;}
+.date {width: 100%;margin-bottom:10px;}
+.f_right {width: 100%;}
+.ft_left {width: calc(100% - 47px);}
+.banner-image > img {width: auto;}
+.l-news-text ul li a {margin-right: 40px;}
+.l-news-text ul li::after {left: -23px;}
+
+}
